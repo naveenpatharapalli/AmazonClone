@@ -1,5 +1,5 @@
 import React from "react";
-import Product from "../Product/Product";
+import Products from "../Product/Products";
 import "./Home.css";
 
 function Home() {
@@ -14,27 +14,7 @@ function Home() {
 
         <div className="home_row">
           {/*product*/}
-          <Product
-            title="Naveen"
-            image="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/July/amazonbasics_520x520._SY304_CB442725065_.jpg"
-            rating={3}
-            price={1.99}
-          />
-
-          <Product />
-        </div>
-
-        <div className="home_row">
-          <Product />
-          <Product />
-          <Product />
-        </div>
-
-        <div className="home_row">
-          <Product />
-          <Product />
-          <Product />
-          <Product />
+          <Products />
         </div>
       </div>
     </div>
